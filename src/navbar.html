@@ -1,0 +1,23 @@
+<nav class="navbar">
+        <div class="navbar-brand">
+        <router-link to="/" class="navbar-item">
+        
+Travelaam Holidays
+          
+        </router-link>
+        </div>
+
+        <div class="navbar-start">
+          <router-link to="/add" class="navbar-item" v-if="!user">Add New Partner</router-link>
+        </div>
+       
+          <a class="navbar-item" v-on:click="signOut">Signout</a>
+          
+        <div class="navbar-item">
+          <button class="button navbar-burger">
+  <span>Viral</span>
+  <span></span>
+  <span></span>
+</button>
+        </div>
+      </nav>

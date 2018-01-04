@@ -1,0 +1,29 @@
+{
+    "short_name": "Travelaam Holidays",
+    "name": "Travel Partners",
+    "icons": [
+      {
+        "src": "images/48.png",
+        "type": "images/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "images/96.png",
+        "type": "images/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "images/96.png",
+        "type": "images/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "images/192.png",
+        "type": "images/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "index.html?launcher=true",
+    "display": "standalone",
+    "theme_color": "#2196F3"
+  }
